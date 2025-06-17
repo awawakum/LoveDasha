@@ -66,7 +66,7 @@
                 ctx.fillStyle = '#ff3366';
                 ctx.fill();
                 
-                currentIndex += 0.04;
+                currentIndex += 0.5;
                 
                 if (currentIndex >= points.length) {
                     isDrawing = false;
@@ -85,7 +85,7 @@
                 ctx.fillStyle = '#ff3366';
                 ctx.fill();
                 
-                currentIndex -= 0.04;
+                currentIndex -= 0.5;
                 
                 if (currentIndex <= 0) {
                     isDrawing = true;
